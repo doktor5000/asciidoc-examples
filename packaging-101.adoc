@@ -1,0 +1,176 @@
+PACKAGING 101 - INTRODUCTION TO SOFTWARE PACKAGING USING RPM
+============================================================
+:title-logo-image: ../PRESENTATION/mageia/poweredbymageiasm.PNG
+:author:    Florian Hubold
+:copyright: CC BY SA 3.0
+:email:     doktor5000@mageia.org
+:date:      20160203
+:revision:  101
+:backend:   slidy
+:max-width: 45em
+:data-uri:
+:icons:
+:encoding:  utf-8
+
+
+PACKAGING 101 - INTRODUCTION TO SOFTWARE PACKAGING USING RPM
+
+Author is {author}
+
+Copyright is {copyright}
+
+Version is {revision}
+
+
+== what is this about
+:toc: 
+:toclevels: 4
+
+* what does `101` mean?
+* what does `packaging` mean?
+* what does `rpm` mean?
+
+
+== what does `101` mean?
+
+
+NOTE: In American university course numbering systems, the number 101 is often used for an introductory course at a beginner's level in a department's subject area.
+
+. Quoting https://en.wikipedia.org/wiki/101_(number)#In_education[101 (number) - In education]
+[quote,, Wikipedia]
+____
+
+This common numbering system was designed to make transfer between colleges easier.
+In theory, any numbered course in one academic institution should bring a student to the same standard as a similarly numbered course at other institutions.
+
+**Based on this usage, the term "101" has been extended to mean an introductory level of learning or a collection of introductory materials to a topic.**
+____
+
+
+
+
+== what does `packaging` mean?
+
+
+[role="incremental"]
+[square]
+* what is packaging
+* why packaging - benefits/drawbacks ?
+* what is rpm - disambiguation
+
+
+== what is packaging
+
+
+something good
+
+
+== why packaging - benefits/drawbacks ?
+
+* because we can
+* only benefits, no drawbacks (just kidding - obviously)
+
+
+== what is `rpm` - disambiguation
+
+
+[role="incremental"]
+
+* redhat package manager - software
+* package format
+** highlevel overview (compressed archive + metadata)
+** brief comparison with other package formats
+
+
+
+== why packaging, what benefits / drawbacks
+
+
+TIP: Tip.
+
+IMPORTANT: Important.
+
+WARNING: Warning.
+
+CAUTION: Caution.
+
+
+.Optional Title
+****
+*Sidebar* Block
+Use: sidebar notes :)
+****
+
+.Optional Title
+[quote, cite author, cite source]
+____
+*Quote* Block
+
+Use: cite somebody
+____
+
+
+== why packaging, what benefits / drawbacks
+
+
+[red]#red text# [yellow-background]#on yellow#
+[big]#large# [red yellow-background big]*all bold*
+
+----
+this is some code example
+----
+
+.Optional Title
+[source,perl]
+die 'connect: '.$dbh->errstr;
+
+
+
+
+
+== overview / general workflow of rpm packaging
+
+
+
+[role="incremental"]
+- compiling/building software first (autotools, cmake, ... ) - apart from rpm
+- packaging it
+- distro integration
+  - spec
+  - packaging guidelines
+  - mageia policies
+- cleaning up and 'prettifying' it
+- fix bugs and security issues
+- incorporate user feedback
+
+
+
+
+== tools & workflows for rpm packaging in a distro context
+
+
+
+[role="incremental"]
+- ssh,svn/svnweb,mgarepo
+- svn/cvs/git ...
+- buildsystem,iurt
+- processes
+- bugzilla
+- mailing lists/IRC/meetings
+- communication
+
+== Questions & Answers
+
+[qanda]
+.Q&A
+Question 1::
+    Answer 1
+Question 2:: Answer 2
+
+
+////
+mutiline comment block to hide vim syntax highlighting
+----
+// vim: set syntax=asciidoc:
+----
+////
